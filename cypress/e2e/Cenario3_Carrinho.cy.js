@@ -2,7 +2,7 @@
     //Comprar um item
   it('passes', () => {
     cy.visit('https://front.serverest.dev/login')
-    cy.get('[data-testid="email"]').click().type("testentt111@yopmail.com")
+    cy.get('[data-testid="email"]').click().type("testentt001@yopmail.com")
     cy.get('[data-testid="senha"]').click().type("Teste@01")
     cy.get('[data-testid="entrar"]').click()
     cy.url().should('eq', 'https://front.serverest.dev/home')
@@ -14,7 +14,7 @@
   //Comprar multiplos itens
   it('passes', () => {
     cy.visit('https://front.serverest.dev/login')
-    cy.get('[data-testid="email"]').click().type("testentt111@yopmail.com")
+    cy.get('[data-testid="email"]').click().type("testentt001@yopmail.com")
     cy.get('[data-testid="senha"]').click().type("Teste@01")
     cy.get('[data-testid="entrar"]').click()
     cy.url().should('eq', 'https://front.serverest.dev/home')
@@ -32,7 +32,7 @@
   //Limpar lista de compras
   it('passes', () => {
     cy.visit('https://front.serverest.dev/login')
-    cy.get('[data-testid="email"]').click().type("testentt111@yopmail.com")
+    cy.get('[data-testid="email"]').click().type("testentt001@yopmail.com")
     cy.get('[data-testid="senha"]').click().type("Teste@01")
     cy.get('[data-testid="entrar"]').click()
     cy.url().should('eq', 'https://front.serverest.dev/home')
