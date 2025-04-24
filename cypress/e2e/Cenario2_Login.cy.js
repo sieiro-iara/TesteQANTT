@@ -1,4 +1,4 @@
-describe('template spec', () => {
+describe('Cenario de Teste Login', () => {
 //Login de usuario comum
 it('passes', () => {
     cy.visit('https://front.serverest.dev/login')

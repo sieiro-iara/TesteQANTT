@@ -1,4 +1,4 @@
-    describe('template spec', () => {
+    describe('Cenario de Teste Carrinho', () => {
     //Comprar um item
   it('passes', () => {
     cy.visit('https://front.serverest.dev/login')
